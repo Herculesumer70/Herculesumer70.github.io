@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+    box-sizing: border-box;
+}
+
+.section {
+    width: 100%;
+    min-height: 130vh;
+    background-color: #995a5a;
+}
+.container {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+    margin-bottom: 110px;
+}
+
+.content-section {
+    float: left;
+    width: 55%;
+}
+
+.image-section {
+    float: right;
+    width: 40%;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+    margin-top: 140px;
+    border-radius: 10px;
+}
+
+.content-section .title {
+    text-transform: uppercase;
+    font-size: 28px;
+    color: white;
+}
+
+.content-section .content h3 {
+    margin-top: 20px;
+    color:white;
+    font-size: 21px;
+}
+
+.content-section .content p {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: white;
+}
+.content-section .content .button {
+    margin-top: 30px;
+}
+.content-section .content .button a {
+    background-color: white;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: #995a5a;
+    letter-spacing: 1.5px;
+    font-size: 25px;
+    border-radius: 20px;
+
+}
+
+.content-section .content .button a:hover {
+    color: white;
+    background-color: #995a5a;
+    border: 2px solid white;
+    transition: 0.5s;
+}
+
+.content-section .social {
+    margin: 40px 10px;
+}
+
+.content-section .social i {
+    color: white;
+    font-size: 30px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+
+.content-section .social i:hover {
+    color: #995a5a;
+    background-color: white;
+    transition: 0.5s;
+    border: 2px solid white;
+}
+
+@media screen and (max-width: 768px) {
+    .section {
+        min-height: 199vh;
+    }
+    .container {
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .content-section {
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .image-section {
+        float: none;
+        width: 100%;
+    }
+    .image-section img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    .content-section .title {
+        text-align: center;
+        font-size: 19px;
+    }
+    .content-section .content .button {
+        text-align: center;
+    }
+    .content-section .content .button a {
+        padding: 9px 30px;
+
+}
+
+}
+
+
